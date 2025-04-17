@@ -79,7 +79,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b><blockquote>◈ Join: <a href=https://t.me/Warmovietamilss>Movie Channel</a>\n◈ More Channel: <a href=https://t.me/Tamil_LinksZzz>More</a>"
+USER_REPLY_TEXT = "<𝙗><𝙗𝙡𝙤𝙘𝙠𝙦𝙪𝙤𝙩𝙚>◈ 𝙅𝙤𝙞𝙣: <𝙖 𝙝𝙧𝙚𝙛=𝙝𝙩𝙩𝙥𝙨://𝙩.𝙢𝙚/𝙒𝙖𝙧𝙢𝙤𝙫𝙞𝙚𝙩𝙖𝙢𝙞𝙡𝙨𝙨>𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡\𝙣◈ 𝙈𝙤𝙧𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡: <𝙖 𝙝𝙧𝙚𝙛=𝙝𝙩𝙩𝙥𝙨://𝙩.𝙢𝙚/𝙏𝙖𝙢𝙞𝙡_𝙇𝙞𝙣𝙠𝙨𝙕𝙯𝙯>𝙈𝙤𝙧𝙚</a>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6497757690)
