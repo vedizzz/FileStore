@@ -152,8 +152,8 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Tamil_LinksZzz")],
 
     [
-                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ Me", callback_data = "about"),
-                    InlineKeyboardButton('Settings ⚙️', callback_data = "help")
+                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton('Settings •', callback_data = "help")
 
     ]
             ]
