@@ -148,12 +148,9 @@ async def start_command(client: Client, message: Message):
                 print(f"Error updating notification with 'Get File Again' button: {e}")
     else:
         reply_markup = InlineKeyboardMarkup(
-            [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Tamil_LinksZzz")],
-
     [
-                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('Settings •', callback_data = "help")
+                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton('Settings ⚙️', callback_data = "help")
 
     ]
             ]
