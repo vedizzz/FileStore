@@ -148,13 +148,8 @@ async def start_command(client: Client, message: Message):
                 print(f"Error updating notification with 'Get File Again' button: {e}")
     else:
         reply_markup = InlineKeyboardMarkup(
-    [
-                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ Me", callback_data = "about"),
-                    InlineKeyboardButton('Settings ⚙️', callback_data = "help")
-
-    ]
-            ]
-        )
+                    [InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ Me", callback_data = "about"),
+                    InlineKeyboardButton('Settings ⚙️', callback_data = "help")]
         await message.reply_photo(
             photo=START_PIC,
             caption=START_MSG.format(
